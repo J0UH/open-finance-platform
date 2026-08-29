@@ -24,7 +24,7 @@ The hard part was keeping one understandable state across banks, merchants, cust
 ## System shape
 
 ```mermaid
-flowchart LR
+flowchart TD
     n0["Merchant"]
     n1["Payment API"]
     n2["Bank authorisation"]
